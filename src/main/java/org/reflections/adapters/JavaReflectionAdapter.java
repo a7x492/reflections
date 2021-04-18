@@ -76,7 +76,7 @@ public class JavaReflectionAdapter implements MetadataAdapter<Class, Field, Memb
     }
 
     public Class getOrCreateClassObject(Vfs.File file) throws Exception {
-        return getOrCreateClassObject(file, null);
+        return getOrCreateClassObject(file, (ClassLoader[]) null);
     }
 
     public Class getOrCreateClassObject(Vfs.File file, ClassLoader... loaders) throws Exception {

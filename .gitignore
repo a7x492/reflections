@@ -6,3 +6,5 @@
 *.ipr
 *.iml
 TODO
+build/
+gradle/
