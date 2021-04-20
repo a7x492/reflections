@@ -3,7 +3,7 @@
  */
 
 plugins {
-    java
+    `java-library`
     `maven-publish`
 }
 
@@ -19,7 +19,7 @@ dependencies {
     implementation("org.slf4j:slf4j-api:1.7.30")
     implementation("org.dom4j:dom4j:2.1.1")
     implementation("com.google.code.gson:gson:2.8.6")
-    implementation("org.slf4j:slf4j-simple:1.7.24")
+    api("org.slf4j:slf4j-simple:1.7.24")
     testImplementation("junit:junit:4.13")
     compileOnly("javax.servlet:servlet-api:2.5")
     compileOnly("org.jboss:jboss-vfs:3.2.12.Final")
