@@ -25,7 +25,7 @@ dependencies {
     compileOnly("org.jboss:jboss-vfs:3.2.12.Final")
 }
 
-group = "org.reflections"
+group = "matt.reflections"
 version = "0.9.13-SNAPSHOT"
 description = "Reflections"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
@@ -39,6 +39,6 @@ publishing {
 
 tasks.jar {
     manifest {
-        attributes("Automatic-Module-Name" to "org.reflections")
+        attributes("Automatic-Module-Name" to "matt.reflections")
     }
 }
